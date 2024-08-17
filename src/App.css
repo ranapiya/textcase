@@ -1,5 +1,24 @@
+*{
+  background-color: black;
+}
+
+.form-control{
+  background-image: linear-gradient(to top, #5ee7df 0%, #b490ca 100%);
+  margin-top: 100px;
+  width: 700px;
+  margin-left: 400px;
+ 
+}
 .App {
   text-align: center;
+}
+.h1{
+  text-align: center;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: cornflowerblue;
+  margin-bottom: 30px;
+  margin-top: 30px;
+  
 }
 
 .App-logo {
@@ -24,6 +43,33 @@
   color: white;
 }
 
+.blank{
+   color: #282c34;
+   font-size: 100px;
+   margin-bottom: 150px;
+   background-color: rgb(29, 95, 95);
+   
+}
+/* In your CSS */
+.btn-2{
+
+  background-image: linear-gradient(to right, #84fab0 0%, #8fd3f4 51%, #84fab0 100%);
+  margin-top: 50px;
+  margin-left: 30px;
+  width: 200px;
+  height: 50px;
+  margin-bottom: 20px;
+
+}
+.btn-1{
+
+  background-image: linear-gradient(to right, #f6d365 0%, #fda085 51%, #f6d365 100%);
+  margin-left: 500px;
+  width: 200px;
+  height: 50px;
+  
+
+}
 .App-link {
   color: #61dafb;
 }
